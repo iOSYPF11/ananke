@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// 使用Amplify 资源配置 React 项目
 import Amplify from 'aws-amplify';
 import config from './aws-exports';
 Amplify.configure(config);

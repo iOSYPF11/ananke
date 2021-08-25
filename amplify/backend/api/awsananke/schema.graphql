@@ -1,0 +1,9 @@
+type Note @model {
+  id: ID!
+  productEnName: String
+  productChName: String
+  productNo:String
+  image:String
+  productSize:String
+}
+
