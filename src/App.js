@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 //在App.js中添加身份验证流
+
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 function App() {
